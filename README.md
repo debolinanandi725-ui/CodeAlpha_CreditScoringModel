@@ -1,39 +1,155 @@
-# Credit Scoring Model
+# 💳 Credit Scoring Model
 
-## Objective
-The objective of this project is to predict whether an individual is creditworthy based on past financial data.
+### 🚀 CodeAlpha Machine Learning Internship Project
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Google Colab
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Machine Learning Models
-- Logistic Regression
-- Random Forest
+---
 
-## Dataset Features
-- Income
-- Debt
-- Payment History
-- Credit Utilization
+## 📌 Project Overview
 
-## Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1 Score
+This project is developed as part of the **CodeAlpha Machine Learning Internship (Task 1: Credit Scoring Model)**.
 
-## Project Workflow
+The goal is to **predict an individual's creditworthiness** using machine learning techniques based on financial and demographic data.
+
+---
+
+## 🎯 Objective
+
+To build a system that:
+
+* Analyzes customer financial data
+* Predicts whether a customer is:
+
+  * ✅ **Creditworthy (High Credit Score)**
+  * ⚠️ **Risky (Low Credit Score)**
+
+---
+
+## ⚙️ Tech Stack
+
+* 🐍 Python
+* 📊 Pandas
+* 🤖 Scikit-learn
+* 📈 Matplotlib & Seaborn
+* 🌐 Streamlit
+
+---
+
+## 📊 Machine Learning Models Used
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+
+---
+
+## 📈 Evaluation Metrics
+
+Each model is evaluated using:
+
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC
+
+🏆 **Best model is automatically selected based on F1 Score**
+
+---
+
+## 🧠 Features Used
+
+* Age
+* Income
+* Number of Children
+* Gender
+* Education
+* Marital Status
+* Home Ownership
+
+---
+
+## 🔄 Workflow
+
 1. Data Preprocessing
-2. Feature Engineering
-3. Model Training
-4. Model Evaluation
+2. Handling Missing Values
+3. Encoding Categorical Features
+4. Train-Test Split
+5. Model Training
+6. Model Evaluation
+7. Best Model Selection
+8. Deployment (Streamlit)
 
-## Result
-The model predicts whether a person is likely to be creditworthy based on financial features.
+---
 
-## Author
-Debolina Nandi
+## 🌐 Streamlit Web App
+
+### ▶️ Run Locally
+
+```bash
+pip install streamlit
+streamlit run credit_app.py
+```
+
+---
+
+## 💾 Saved Files (Model Deployment)
+
+* `best_model.pkl` → Final ML model
+* `scaler.pkl` → Data scaling
+* `model_name.pkl` → Best model name
+* `columns.pkl` → Feature alignment
+
+---
+
+## 📁 Project Structure
+
+```
+CodeAlpha_CreditScoringModel/
+│
+├── credit_app.py
+├── best_model.pkl
+├── scaler.pkl
+├── model_name.pkl
+├── columns.pkl
+├── dataset.csv
+└── README.md
+```
+
+---
+
+## 🔗 GitHub Repository
+
+👉 https://github.com/debolinanandi725-ui/CodeAlpha_CreditScoringModel
+
+---
+
+## 🚀 Key Highlights
+
+✔ Multiple ML models implemented
+✔ Performance comparison using real metrics
+✔ Automatic best model selection
+✔ Interactive Streamlit web app
+✔ Real-time prediction system
+
+---
+
+## 🙌 Acknowledgement
+
+This project is completed as part of the **CodeAlpha Internship Program**.
+
+---
+
+## 📬 Contact
+
+👩‍💻 **Debolina Nandi**
+📧 debolinanandi725@gmail.com
+🔗 https://github.com/debolinanandi725-ui
+
+---
+
+⭐ *If you like this project, don’t forget to star the repository!*
